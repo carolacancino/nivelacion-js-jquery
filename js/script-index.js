@@ -2,8 +2,6 @@ $(document).ready( function(){
 	//parte2
 	printNews();
 
-	var recipesArray = [];
-	for (var i=0 ; i<arregloN.length; ++i){}
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
 
@@ -15,7 +13,7 @@ $(document).ready( function(){
 */
 function renderHighlightedRecipes(recipesArray) {
 	console.log('Recipes: ', recipesArray);
-		for (i = 0; i < recipesArray.length; i++){
+	for (i = 0; i < recipesArray.length; i++){
  		if(recipesArray[i].highlighted==true){
  			var recipe = recipesArray[i];
  			renderRecipe(recipe);
