@@ -41,5 +41,9 @@ function renderActivities(activitiesArray) {
 function renderActivity(recipe) {
 	
 }
-
+//sacar flecha
+$(document).ready(function(){ 
+ 
+    $('js-back').hide(
+    	});
 
