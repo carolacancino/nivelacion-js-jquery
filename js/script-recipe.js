@@ -19,7 +19,7 @@ $(document).ready(function(){
  	});
 //flecha atras
  	$('.js-back').click(function() {
-        $(window.history.back('location', 'index.html');
+        $(window).attr('location','index.html');
      });
 
 ///active
